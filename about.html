@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Inês is a front-end developer, based in Portugal with a diverse experience"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -35,7 +39,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Portfolio</title>
+    <title>Front-end developer - Inês Ramalho</title>
   </head>
   <body>
     <div class="container">
@@ -43,9 +47,13 @@
         <div class="logo d-none d-sm-block">Inês Ramalho</div>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li class="active"><a href="about.html">About</a></li>
-          <li><a href="work.html">Work </a></li>
-          <li><a href="contact.html">Contact </a></li>
+          <li class="active">
+            <a href="about.html" title="About Inês">About</a>
+          </li>
+          <li><a href="work.html" title="Projects">Work </a></li>
+          <li>
+            <a href="contact.html" title="Contacts">Contact </a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -65,9 +73,42 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/Inês.jpg" class="img-fluid" id="ines" alt="" />
+          <img
+            src="images/Inês.jpg"
+            class="img-fluid"
+            id="ines"
+            alt="photo of Inês Ramalho"
+          />
         </div>
       </div>
     </div>
+    <footer>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="contact.html" class="btn btn-branding">Contact me </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:inesm.ramalho@gmail.com" class="email-link"
+          >inesm.ramalho@gmail.com</a
+        >
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <div class="social-links">
+          <a
+            href="http://www.linkedin.com/in/inês-ramalho-a7222767/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="http://github.com/InesCMTRH" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

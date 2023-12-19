@@ -29,7 +29,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -108,7 +108,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -197,7 +197,7 @@ footer .contact-box p {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 18px;
   }
 
